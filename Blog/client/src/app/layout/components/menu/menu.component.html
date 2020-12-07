@@ -1,0 +1,10 @@
+<ul nz-menu nzMode="inline" class="menu-style">
+  <ng-container *ngFor="let item of menuList; let i = index">
+    <li nz-menu-item [nzSelected]="item.router===currentUrl">
+      <a [routerLink]="item.router">
+        <i nz-icon [nzType]="item.icon"></i>
+        <span>{{ item.menuName }}</span>
+      </a>
+    </li>
+  </ng-container>
+</ul>

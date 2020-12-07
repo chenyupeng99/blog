@@ -1,0 +1,38 @@
+{
+  "name": "jingbinblog",
+  "version": "1.0.0",
+  "description": "express mongondb redis TypeScript",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^14.11.2",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "crypto-random-string": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-http-context": "^1.2.4",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "random-string": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingbin-li/JingBinBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingbin-li/JingBinBlog/issues"
+  },
+  "homepage": "https://github.com/jingbin-li/JingBinBlog#readme"
+}
